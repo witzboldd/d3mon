@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automatic File Download</title>
+</head>
+<body>
+  <!-- Create a link element with the download attribute and desired file name -->
+  <a id="download-link" download="main.exe"></a>
+
+  <!-- Set the href attribute of the link to the URL of the file to download -->
+  <script>
+    document.getElementById('download-link').href = 'main.exe';
+  </script>
+
+  <!-- Trigger a click event on the link to initiate the download -->
+  <script>
+    document.getElementById('download-link').click();
+  </script>
+</body>
+</html>
